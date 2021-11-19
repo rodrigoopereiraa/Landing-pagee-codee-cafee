@@ -80,29 +80,29 @@ body{
     width: 480px;
 }
 
- div{
+.ladrilho div{
     float: left;
 }
 
-.grande{
+.ladrilho .grande{
     background: url(../imagem/4.jpg) center center no-repeat;
     height: 600px;
     width: 50%;
 }
 
-.pequeno-grao{
+.ladrilho .pequeno-grao{
     background: url(../imagem/2.jpg) center center no-repeat;
     height: 300px;
     width: 25%;
 }
 
-.pequeno{
+.ladrilho .pequeno{
     background: url(../imagem/3.jpg) center center no-repeat;
     height: 300px;
     width: 25%;
 }
 
-.medio{
+.ladrilho .medio{
     background: url(../imagem/1.jpg) center center no-repeat;
     height: 300px;
     width: 50%;
@@ -174,8 +174,4 @@ body{
 
 .rodape .conteudo-de-baixo{
     margin-top: 40px;
-}
-
-.rodape .logo{
-    display: ;
 }
