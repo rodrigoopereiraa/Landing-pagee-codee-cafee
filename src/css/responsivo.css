@@ -1,0 +1,114 @@
+@media (max-width: 992px) {
+    .secao-com-texto{
+        padding: 153px 40px;
+    }
+
+    .secao-com-texto p,
+    .secao-com-texto.onde-estamos p{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .contato{
+        background-image: none;
+        background-color: #d3ae71;
+    }
+
+    .contato .texto{
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translatey(-50%);
+    }
+
+    .contato h2{
+        margin-bottom: 46px;        
+    }
+}
+
+
+@media (max-width: 720px) {
+    .ladrilho .grande,
+    .ladrilho .medio{
+        width: 100%;
+    }
+
+    .ladrilho .pequeno-grao,
+    .ladrilho .pequeno{
+        width: 50%;
+    }
+
+    .rodape{
+        text-align: center;
+        background-image: none;
+        background-color: #000;
+        font-size: 1rem;
+    }
+
+    .rodape .logo{
+        display: block;
+        margin-bottom: 122px;
+    }
+
+    .rodape ul{
+        display: block;
+        width: 100%;
+        margin-bottom: 122px;
+    }
+
+    .rodape ul li{
+        display: block;
+    }
+
+    .rodape .redes-sociais{
+        float: none;
+        margin-bottom: 28px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .cabecalho .logo{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav{
+        position: static;
+        margin-top: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li{
+        display: block;
+    }
+
+    .cabecalho nav ul li a{
+        width: 100%;
+        display: block;
+    }
+
+    .painel h2{
+        font-size: 2.5rem;
+    }
+
+    .secao-com-texto h2{
+        font-size: 1.5rem;
+    }
+
+    .secao-com-texto.onde-estamos p{
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .ladrilho .pequeno-grao,
+    .ladrilho .pequeno{
+        width: 100%;
+    }
+}

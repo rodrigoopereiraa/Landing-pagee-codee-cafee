@@ -1,5 +1,10 @@
+html{
+    font-size: 62,5%;
+}
+
 body{
     max-width: 1440px;
+    font-size: 1.6rem;
 }
 
 .cabecalho{
@@ -85,25 +90,25 @@ body{
 }
 
 .ladrilho .grande{
-    background: url(../imagem/4.jpg) center center no-repeat;
+    background: url(../imagem/grande.jpg) center center no-repeat;
     height: 600px;
     width: 50%;
 }
 
 .ladrilho .pequeno-grao{
-    background: url(../imagem/2.jpg) center center no-repeat;
+    background: url(../imagem/pequeno-grao.jpg) center center no-repeat;
     height: 300px;
     width: 25%;
 }
 
 .ladrilho .pequeno{
-    background: url(../imagem/3.jpg) center center no-repeat;
+    background: url(../imagem/pequeno.jpg) center center no-repeat;
     height: 300px;
     width: 25%;
 }
 
 .ladrilho .medio{
-    background: url(../imagem/1.jpg) center center no-repeat;
+    background: url(../imagem/medio.jpg) center center no-repeat;
     height: 300px;
     width: 50%;
 }
